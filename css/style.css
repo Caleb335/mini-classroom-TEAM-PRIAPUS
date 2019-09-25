@@ -110,7 +110,13 @@ a:hover {
     text-decoration: none;
     border-color: #fff;
 }
-
+form input {
+    border: none;
+}
+form input:hover {
+    border-color: #3F0E40;
+    transform: translateY(-1px);
+}
 /* mobile veiw */
 @media (max-width: 575.98px) {
     body {
@@ -118,9 +124,6 @@ a:hover {
     }
     .right-box {
         width: 100%;
-    }
-    .left-box {
-        display: none;
     }
     .right-box {
         background: #3F0E40;
